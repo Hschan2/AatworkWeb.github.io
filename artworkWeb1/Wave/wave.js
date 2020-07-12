@@ -1,6 +1,4 @@
-import {
-    WaveGroup
-} from './wavegroup.js';
+import { WaveGroup } from './wavegroup.js';
 
 class App {
     constructor() {
@@ -24,7 +22,7 @@ class App {
 
         // 캔버스를 더블 사이즈로 지정
         this.canvas.width = this.stageWidth * 2;
-        this.canvas.height =this.stageHeight * 2;
+        this.canvas.height = this.stageHeight * 2;
         this.ctx.scale(2, 2);
 
         this.waveGroup.resize(this.stageWidth, this.stageHeight);
