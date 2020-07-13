@@ -1,7 +1,13 @@
 # AatworkWeb.github.io
 
-### ArtworkWeb_1/artworkWeb_1.html
+### ArtworkWeb1/artworkWeb1.html
 - 카드 섹션 페이지
 
-### ArtworkWeb_1/Wave.html
+### ArtworkWeb1/Wave/Wave.html
 - 파도치는 페이지
+
+### ArtworkWeb1/Gradient/Gradient.html
+- Random 원형 그라디언트 페이지
+
+### ArtworkWeb1/Pixel/Pixel.html
+- Click하면 이미지를 Pixel화 하기
