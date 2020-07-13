@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, user-scalable=no">
     <title>Card Art</title>
     <link rel="stylesheet" type="text/css" href="artworkWeb.css">
-    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
   </head>
   <body>
@@ -26,8 +25,22 @@
       </div>
     </div>
 
-    <script src="./artworkWeb.js"></script>
-    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script>
+      var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+    });
+    </script>
+    <script src="artworkWeb.js"></script>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   </body>
 </html>
