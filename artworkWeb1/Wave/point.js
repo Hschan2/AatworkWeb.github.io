@@ -3,9 +3,9 @@ export class Point {
         this.x = x;
         this.y = y;
         this.fixedY = y;
-        this.speed = 0.01;
+        this.speed = 0.05;
         this.cur = index; // 현재 포인트 값이 어딨는가
-        this.max = Math.random() * 100;
+        this.max = Math.random() * 100 + 50;
     }
 
     update() {
