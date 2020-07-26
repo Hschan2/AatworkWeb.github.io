@@ -33,13 +33,13 @@ body {
   .card {
     position: relative;
     background: #fff;
-    width: 250px;
-    height: 250px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto;
   }
 
   .card .content {
-    width: 250px;
+    width: 200px;
     padding: 30px;
     box-sizing: border-box;
   }
@@ -56,7 +56,7 @@ body {
 
   .card .sliderText h3 {
     color: #fff;
-    font-size: 2em;
+    font-size: 1em;
   }
 
   .cardA {
