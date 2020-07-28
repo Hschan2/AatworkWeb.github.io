@@ -137,7 +137,7 @@ class App {
     animate() {
         window.requestAnimationFrame(this.animate.bind(this));
 
-        this.ripple.animate();
+        this.ripple.animate(this.ctx);
 
         for(let i=0; i<this.dots.length; i++) {
             const dot = this.dots[i];
