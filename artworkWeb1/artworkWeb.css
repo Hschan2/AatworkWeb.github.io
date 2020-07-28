@@ -27,7 +27,7 @@ body {
     width: 230px;
     height: 230px;
     background: #000;
-    -webkit-box-reflect: below 0.5px linear-gradient(transparent, transparent, #0006);
+    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgba(68, 68, 68, 0.4));
   }
 
   .card {
@@ -51,16 +51,10 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #000;
+    background: rgb(70, 70, 70);
   }
 
   .card .sliderText h3 {
     color: #fff;
     font-size: 2em;
-  }
-
-  .cardA {
-    text-decoration: none;
-    -webkit-transition: 1s;
-    transition: 1s;
   }
