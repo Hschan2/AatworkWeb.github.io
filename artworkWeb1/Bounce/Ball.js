@@ -9,7 +9,7 @@ export class Ball {
         this.y = diameter + (Math.random() * stageHeight - diameter);
     }
 
-    draw(ctx, stageWidth, stageHeight) {
+    draw(ctx, stageWidth, stageHeight, block) {
         this.x += this.vx;
         this.y += this.vy;
 

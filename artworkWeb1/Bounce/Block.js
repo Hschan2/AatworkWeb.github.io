@@ -5,7 +5,7 @@ export class Block {
         this.x = x;
         this.y = y;
         this.maxX = width + x;
-        this.maxY = height + y
+        this.maxY = height + y;
     }
 
     draw(ctx) {
