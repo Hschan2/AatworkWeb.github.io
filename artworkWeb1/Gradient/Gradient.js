@@ -16,7 +16,7 @@ class App {
 
         this.pixelRatio = (window.devicePixelRatio > 1) ? 2 : 1;
 
-        this.totalParticles = 20;
+        this.totalParticles = 50;
         this.particles = [];
         this.maxRadius = 600;
         this.minRadius = 300;
