@@ -31,7 +31,7 @@ class App {
         };
 
         this.image = new Image();
-        this.image.src = 'venezia.jpg';
+        this.image.src = './top.jpg';
         this.image.onload = () => {
             this.isLoaded = true;
             this.drawImage();
