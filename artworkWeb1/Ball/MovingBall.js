@@ -21,7 +21,7 @@ export class Ball {
         if(this.x <= minX || this.x >= maxX) this.vx *= -1;
         if(this.y <= minY || this.y >= maxY) this.vy *= -1;
 
-        ctx.fillStyle = '#a2b59f';
+        ctx.fillStyle = '#47C83E';
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, PI2);
         ctx.fill();
