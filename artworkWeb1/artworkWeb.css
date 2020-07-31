@@ -18,7 +18,7 @@ body {
   .swiper-container {
     width: 100%;
     padding-top: 50px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
   }
 
   .swiper-slide {
@@ -27,7 +27,7 @@ body {
     width: 230px;
     height: 230px;
     background: #000;
-    -webkit-box-reflect: below 1px linear-gradient(transparent, transparent, rgba(68, 68, 68, 0.4));
+    -webkit-box-reflect: below 0.5px linear-gradient(transparent, transparent, rgba(68, 68, 68, 0.4));
   }
 
   .card {
