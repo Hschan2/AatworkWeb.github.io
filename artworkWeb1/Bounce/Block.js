@@ -12,12 +12,12 @@ export class Block {
         const xGap = 80;
         const yGap = 60;
 
-        ctx.fillStyle = '#d18063';
+        ctx.fillStyle = '#FCFCFC';
         ctx.beginPath();
         ctx.rect(this.x, this.y, this.width, this.height);
         ctx.fill();
 
-        ctx.fillStyle = '#f0e4d4';
+        ctx.fillStyle = '#BDBDBD';
         ctx.beginPath();
         ctx.moveTo(this.maxX, this.maxY);
         ctx.lineTo(this.maxX - xGap, this.maxY + yGap);
@@ -25,7 +25,7 @@ export class Block {
         ctx.lineTo(this.x, this.maxY);
         ctx.fill();
 
-        ctx.fillStyle = '#f9d9ca';
+        ctx.fillStyle = '#EAEAEA';
         ctx.beginPath();
         ctx.moveTo(this.x, this.y);
         ctx.lineTo(this.x, this.maxY);
