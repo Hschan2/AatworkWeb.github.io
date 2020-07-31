@@ -17,7 +17,13 @@ export class Ball {
 
         this.bounceBlock(block);
 
-        ctx.fillStyle = '#917b56';
+        const ballColor = ctx.createRadialGradient(45,45,10,52,50,30);
+        ballColor.addColorStop(0, '#A7D30C');
+        ballColor.addColorStop(0.9, '#019F62');
+        ballColor.addColorStop(1, 'rgba(1,159,98,0)');
+
+        ctx.fillStyle = ballColor;
+        // ctx.strokeStyle = '#fff';
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
         ctx.fill();
