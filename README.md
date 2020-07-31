@@ -1,5 +1,5 @@
 # AatworkWeb.github.io
-[AatworkWeb.github.io](https://hschan2.github.io/AatworkWeb.github.io/ArtworkWeb.html)
+[AatworkWeb.github.io](https://hschan2.github.io/AatworkWeb.github.io/artworkWeb1/artworkWeb.html)
 
 ### ArtworkWeb1/artworkWeb1.html
 - 카드 섹션 페이지
