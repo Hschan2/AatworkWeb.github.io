@@ -25,7 +25,8 @@ export class Ball {
         ctx.fillStyle = ballColor;
         // ctx.strokeStyle = '#fff';
         ctx.beginPath();
-        ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
+        ctx.fillRect(0, 0, 150, 150);
+        // ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
         ctx.fill();
     }
 
