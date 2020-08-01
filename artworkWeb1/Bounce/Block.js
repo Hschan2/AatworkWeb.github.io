@@ -14,7 +14,7 @@ export class Block {
 
         ctx.fillStyle = '#FCFCFC';
         ctx.beginPath();
-        ctx.rect(this.x, this.y, this.width, this.height);
+        ctx.fillRect(this.x, this.y, this.width, this.height);
         ctx.fill();
 
         ctx.fillStyle = 'rgba(189, 189, 189, 0.4)';
