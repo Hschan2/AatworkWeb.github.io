@@ -33,7 +33,7 @@ const user = {
     width : 10,
     height : 100,
     score : 0,
-    color : "#FF1212",
+    color : "#1266FF",
 }
 
 // Com 오브젝트 선언
@@ -43,7 +43,7 @@ const com = {
     width : 10,
     height : 100,
     score : 0,
-    color : "#1266FF",
+    color : "#FF1212",
 }
 
 // net(네트) 오브젝트 선언
