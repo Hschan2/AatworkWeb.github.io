@@ -50,7 +50,7 @@ class App {
                     x2: x2,
                     y2: i * yGap + yGap,
                 },
-                '#C6D2BE'
+                '#C7D6DB'
             )
         }
     }
