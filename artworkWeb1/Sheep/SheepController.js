@@ -1,4 +1,4 @@
-import { Sheeps } from "./Sheeps.js";
+import { Sheep } from "./Sheep.js";
 
 export class SheepController {
     constructor() {
@@ -27,7 +27,7 @@ export class SheepController {
 
     addSheep() {
         this.items.push(
-            new Sheeps(this.img, this.stageWidth),
+            new Sheep(this.img, this.stageWidth),
         );
     }
 
