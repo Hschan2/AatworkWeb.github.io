@@ -11,6 +11,8 @@ export class Sheep {
         this.sheepWidth = 180;
         this.sheepHeight = 150;
 
+        this.radius = 30;
+
         this.sheepWidthHalf = this.sheepWidth / 2;
         this.x = stageWidth + this.sheepWidth;
         this.y = 0;
@@ -39,23 +41,23 @@ export class Sheep {
     }
 
     animate(ctx, dots) {
-        // this.x -= this.speed;
-        // const closest = this.getY(this.x, dots);
-        // this.y = closest.y;
-
-        this.x = 650;
-        this.y = 550;
+        this.x -= this.speed;
+        const closest = this.getY(this.x, dots);
+        this.y = closest.y;
 
         ctx.save();
         ctx.translate(this.x, this.y);
-        // ctx.rotate(closest.rotation);
+        ctx.rotate(closest.rotation);
         ctx.fillStyle = '#fff';
-        ctx.fillRect(
-            -this.sheepWidthHalf,
-            -this.sheepHeight + 20,
-            this.sheepWidth / 2,
-            this.sheepHeight / 2,
-        );
+        // ctx.fillRect(
+        //     -this.sheepWidthHalf,
+        //     -this.sheepHeight + 20,
+        //     this.sheepWidth / 2,
+        //     this.sheepHeight / 2,
+        // );
+        ctx.beginPath();
+        ctx.arc(-this.sheepWidthHalf, -this.sheepHeight + 20, this.radius, 0, 2 * Math.PI);
+        ctx.fill();
         ctx.drawImage(
             this.img,
             this.imgWidth * this.curFrame,
