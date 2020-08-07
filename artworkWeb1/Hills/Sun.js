@@ -33,7 +33,7 @@ export class Sun {
             this.updatePoints();
         }
 
-        ctx.fillStyle = 'rgba(255, 205, 18, 0.5)';
+        ctx.fillStyle = 'rgba(255, 223, 36, 0.5)';
         ctx.beginPath();
         // ctx.arc(this.x, this.y, this.radius, 0, 2 * Math.PI);
         // ctx.fill();
