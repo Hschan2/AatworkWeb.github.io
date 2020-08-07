@@ -39,20 +39,23 @@ export class Sheep {
     }
 
     animate(ctx, dots) {
-        this.x -= this.speed;
-        const closest = this.getY(this.x, dots);
-        this.y = closest.y;
+        // this.x -= this.speed;
+        // const closest = this.getY(this.x, dots);
+        // this.y = closest.y;
+
+        this.x = 650;
+        this.y = 550;
 
         ctx.save();
         ctx.translate(this.x, this.y);
-        ctx.rotate(closest.rotation);
-        // ctx.fillStyle = '#000';
-        // ctx.fillRect(
-        //       -this.sheepWidthHalf,
-        //       -this.sheepHeight + 20,
-        //       this.sheepWidth,
-        //       this.sheepHeight
-        // );
+        // ctx.rotate(closest.rotation);
+        ctx.fillStyle = '#fff';
+        ctx.fillRect(
+            -this.sheepWidthHalf,
+            -this.sheepHeight + 20,
+            this.sheepWidth / 2,
+            this.sheepHeight / 2,
+        );
         ctx.drawImage(
             this.img,
             this.imgWidth * this.curFrame,

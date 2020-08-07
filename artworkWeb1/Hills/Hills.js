@@ -11,9 +11,9 @@ class App {
         this.sun = new Sun();
 
         this.hills = [
-            new Hill('#90EE90', 0.2, 12), // 제일 느리게, 제일 뒤에
-            new Hill('#32CD32', 0.5, 8),
-            new Hill('#228B22', 1.4, 6) // 제일 빠르게, 제일 앞에
+            new Hill('#E4F7BA', 0.2, 12), // 제일 느리게, 제일 뒤에
+            new Hill('#CEF279', 0.5, 8),
+            new Hill('#BCE55C', 1.4, 6) // 제일 빠르게, 제일 앞에
         ];
 
         this.sheepController = new SheepController();
