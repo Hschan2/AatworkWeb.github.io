@@ -17,7 +17,7 @@ export class Block {
         ctx.rect(this.x, this.y, this.width, this.height);
         ctx.fill();
 
-        ctx.fillStyle = 'rgba(140, 140, 140, 0.5)';
+        ctx.fillStyle = `rgba(140, 140, 140, 0.5)`;
         ctx.beginPath();
         ctx.moveTo(this.maxX, this.maxY);
         ctx.lineTo(this.maxX - xGap, this.maxY + yGap);
@@ -25,7 +25,7 @@ export class Block {
         ctx.lineTo(this.x, this.maxY);
         ctx.fill();
 
-        ctx.fillStyle = 'rgba(189, 189, 189, 0.3)';
+        ctx.fillStyle = `rgba(189, 189, 189, 0.3)`;
         ctx.beginPath();
         ctx.moveTo(this.x, this.y);
         ctx.lineTo(this.x, this.maxY);
