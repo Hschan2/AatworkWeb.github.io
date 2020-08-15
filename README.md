@@ -4,11 +4,15 @@
 ### ArtworkWeb1/artworkWeb1.html
 - 카드 섹션 페이지
 
-### ArtworkWeb1/Wave/Wave.html
+### ArtworkWeb1/Wave
 - 파도치는 페이지
 
-### ArtworkWeb1/Gradient/Gradient.html
+### ArtworkWeb1/Gradient
 - Random 원형 그라디언트 페이지
 
-### ArtworkWeb1/Pixel/Pixel.html
+### ArtworkWeb1/Pixel
 - Click하면 이미지를 Pixel화 하기
+
+### ArtworkWeb1/Ball
+- 공의 움직임마다 당겨지는 줄
+
