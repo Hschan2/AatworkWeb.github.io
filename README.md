@@ -22,8 +22,8 @@
 ### ArtworkWeb1/Hills
 - 움직이는 언덕
 
-### ArtworkWeb1/Hills
-- 움직이는 언덕
+### ArtworkWeb1/Bounce
+- 벽을 부딪히는 
 
 ### ArtworkWeb1/Hills
 - 움직이는 언덕
