@@ -25,6 +25,6 @@
 ### ArtworkWeb1/Bounce
 - 벽을 부딪히는 
 
-### ArtworkWeb1/Hills
-- 움직이는 언덕
+### ArtworkWeb1/LineBox
+- 마우스로 끌어당겨지는 사각형
 
