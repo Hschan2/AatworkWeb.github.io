@@ -15,7 +15,7 @@ export class Particle {
         this.sprite.y = this.y;
         this.vx = 0;
         this.vy = 0;
-        this.radius = 10;
+        this.radius = -10;
     }
 
     draw() {
