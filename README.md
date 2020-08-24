@@ -28,3 +28,6 @@
 ### ArtworkWeb1/LineBox
 - 마우스로 끌어당겨지는 사각형
 
+### ArtworkWeb1/FireRing
+- 타오르는 두 개의 동그라미
+
