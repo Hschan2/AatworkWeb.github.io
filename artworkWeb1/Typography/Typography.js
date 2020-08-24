@@ -28,7 +28,7 @@ class App {
             resolution: (window.devicePixelRatio > 1) ? 2 : 1,
             autoDensity: true,
             powerPreference: "high-performance",
-            backgroundColor: 0xffffff,
+            backgroundColor: 0x721b65,
         });
         document.body.appendChild(this.renderer.view);
 
@@ -59,9 +59,9 @@ class App {
 
         const uniformsData = {
             threshold: 0.5,
-            mr: 0.0 / 255.0,
-            mg: 0.0 / 255.0,
-            mb: 0.0 / 255.0,
+            mr: 248.0 / 255.0,
+            mg: 97.0 / 255.0,
+            mb: 90.0 / 255.0,
         };
         const thresholdFilter = new PIXI.Filter(null, fragSource, uniformsData);
         this.stage.filters = [blurFilter, thresholdFilter];
