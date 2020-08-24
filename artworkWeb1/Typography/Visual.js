@@ -1,6 +1,7 @@
 import {Text} from './Text.js';
 import {Particle} from './Particle.js';
 
+const inputString = prompt('대문자의 영어를 입력하세요.');
 export class Visual {
     constructor() {
         this.text = new Text();
@@ -23,7 +24,7 @@ export class Visual {
             stage.removeChild(this.container);
         }
 
-        this.pos = this.text.setText('H', 2, stageWidth, stageHeight);
+        this.pos = this.text.setText(inputString, 2, stageWidth, stageHeight);
 
         this.container = new PIXI.ParticleContainer(
             this.pos.length,
