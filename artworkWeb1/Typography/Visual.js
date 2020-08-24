@@ -1,7 +1,11 @@
 import {Text} from './Text.js';
 import {Particle} from './Particle.js';
 
-const inputString = prompt('대문자의 영어를 입력하세요.');
+let inputString = prompt('알파벳 하나를 입력하세요.');
+const eng = /^[a-zA-Z]*$/;
+if(!eng.test(inputString) || inputString === null || inputString === '') {
+    location.reload();
+}
 export class Visual {
     constructor() {
         this.text = new Text();
