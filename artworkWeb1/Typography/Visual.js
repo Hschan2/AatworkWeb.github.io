@@ -2,9 +2,6 @@ import {Text} from './Text.js';
 import {Particle} from './Particle.js';
 
 let inputString = prompt('알파벳 하나를 입력하세요.');
-// let inputString = swal("알파벳을 입력하세요:", {
-//     content: "input",
-//   });
 const eng = /^[a-zA-Z]*$/;
 if(!eng.test(inputString) || inputString === '' || inputString === null) {
     location.reload();
