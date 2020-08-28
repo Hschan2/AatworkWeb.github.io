@@ -32,5 +32,8 @@
 - 타오르는 두 개의 동그라미
 
 ### ArtworkWeb1/Typography
-- PIXI를 이용한 Typography Effect
+- PIXI를 이용한 Typography Effect Version 1
+
+### ArtworkWeb1/Typography2
+- PIXI를 이용한 Typography Effect Version 2
 
