@@ -31,3 +31,6 @@
 ### ArtworkWeb1/FireRing
 - 타오르는 두 개의 동그라미
 
+### ArtworkWeb1/Typography
+- PIXI를 이용한 Typography Effect
+
