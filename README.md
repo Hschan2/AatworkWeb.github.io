@@ -37,3 +37,6 @@
 ### ArtworkWeb1/Typography2
 - PIXI를 이용한 Typography Effect Version 2
 
+### ArtworkWeb1/Typography3
+- Canvas로 그리는 Typography Effect Version 3
+
