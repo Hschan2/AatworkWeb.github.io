@@ -20,12 +20,12 @@ export class Particle {
         this.fps = 15;
         this.fpsTime = 1000 / this.fps;
 
-        this.savedRgb = 0x000000;
-        this.rgb = 0x000000;
+        this.savedRgb = 0x86E57F;
+        this.rgb = 0x86E57F;
     }
 
     collide() {
-        this.rgb = 0xf3316e;
+        this.rgb = 0x5E4C5A;
         this.textArr = this.shuffle(this.textArr);
     }
 

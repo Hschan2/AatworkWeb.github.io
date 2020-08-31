@@ -3,6 +3,15 @@ import {Particle} from './Particle.js';
 
 export const RANDOM_TEXT = 'ABCMNRSTUXZ';
 
+let inputString = prompt('알파벳 하나를 입력하세요.');
+const eng = /^[a-zA-Z]*$/;
+if(!eng.test(inputString) || inputString === '' || inputString === null) {
+    location.reload();
+}
+if(inputString.length > 1) {
+    location.reload();
+}
+
 export class Visual {
     constructor() {
         this.text = new Text();
@@ -21,8 +30,8 @@ export class Visual {
     }
 
     show(stageWidth, stageHeight) {
-        const str = this.textArr[Math.round(Math.random() * (this.text.length - 1))];
-        this.pos = this.text.setText(str, 26, stageWidth, stageHeight);
+        // const str = this.textArr[Math.round(Math.random() * (this.text.length - 1))];
+        this.pos = this.text.setText(inputString, 26, stageWidth, stageHeight);
 
         this.particles = [];
         for(let i = 0; i < this.pos.length; i++) {
