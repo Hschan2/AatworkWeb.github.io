@@ -6,6 +6,9 @@ const eng = /^[a-zA-Z]*$/;
 if(!eng.test(inputString) || inputString === '' || inputString === null) {
     location.reload();
 }
+if(inputString.length > 1) {
+    location.reload();
+}
 
 export class Visual {
     constructor() {
