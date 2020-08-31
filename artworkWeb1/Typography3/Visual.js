@@ -30,7 +30,7 @@ export class Visual {
     }
 
     show(stageWidth, stageHeight) {
-        // const str = this.textArr[Math.round(Math.random() * (this.text.length - 1))];
+        // const str = this.textArr[Math.round(Math.random() * (this.textArr.length - 1))];
         this.pos = this.text.setText(inputString, 26, stageWidth, stageHeight);
 
         this.particles = [];
