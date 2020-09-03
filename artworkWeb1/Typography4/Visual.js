@@ -2,14 +2,14 @@ import {Text} from './Text.js';
 import {Particle} from './Particle.js';
 import {hslToHex} from './Utils.js';
 
-// let inputString = prompt('알파벳 하나를 입력하세요.');
-// const eng = /^[a-zA-Z]*$/;
-// if(!eng.test(inputString) || inputString === '' || inputString === null) {
-//     location.reload();
-// }
-// if(inputString.length > 1) {
-//     location.reload();
-// }
+let inputString = prompt('알파벳 하나를 입력하세요.');
+const eng = /^[a-zA-Z]*$/;
+if(!eng.test(inputString) || inputString === '' || inputString === null) {
+    location.reload();
+}
+if(inputString.length > 1) {
+    location.reload();
+}
 
 export class Visual {
     constructor() {
@@ -27,7 +27,7 @@ export class Visual {
     }
 
     show(stageWidth, stageHeight) {
-        this.pos = this.text.setText('H', 20, stageWidth, stageHeight);
+        this.pos = this.text.setText(inputString, 20, stageWidth, stageHeight);
         this.posTotal = this.pos.length - 1;
     }
 
