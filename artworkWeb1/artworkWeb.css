@@ -11,7 +11,7 @@ body {
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(#212738, #0d0106);
+    background: linear-gradient(#212738, #171b27);
   }
 
   .swiper-container {
