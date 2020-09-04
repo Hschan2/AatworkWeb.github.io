@@ -40,3 +40,5 @@
 ### ArtworkWeb1/Typography3
 - Canvas로 그리는 Typography Effect Version 3
 
+### ArtworkWeb1/Typography4
+- Canvas로 그리는 Typography Effect Version 4
