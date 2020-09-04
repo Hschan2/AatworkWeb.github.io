@@ -4,12 +4,12 @@
 }
 
 body {
-    background-color: #0d0106;
+    background-color: #201335;
 }
 
 .main {
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,8 @@ body {
     color: black;
 }
 
-.A_Card, .B_Card, .C_Card, .D_Card {
+.Card {
+    background-color: #4f4789;
     border: solid 1px transparent;
     border-radius: 10px;
     width: 300px;
@@ -29,23 +30,13 @@ body {
     margin: 5px 10px;
 }
 
-.A_Card:hover {
-    background-color: #a00b4b;
+.Card:hover {
+    background-color: #563b86;
     transition: 0.2s;
 }
 
-.B_Card:hover {
-    background-color: #5469af;
-    transition: 0.2s;
-}
-
-.C_Card:hover {
-    background-color: #dd9a69;
-    transition: 0.2s;
-}
-
-.D_Card:hover {
-    background-color: #160d24;
+.Card:active {
+    background-color: #452c70;
     transition: 0.2s;
 }
 
