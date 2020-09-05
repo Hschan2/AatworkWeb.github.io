@@ -42,3 +42,8 @@
 
 ### ArtworkWeb1/Typography4
 - Canvas로 그리는 Typography Effect Version 4
+
+### ArtworkWeb1/Typography5
+- Image를 이용하고 Canvas로 그리는 Typography Effect Version 5
+
+
