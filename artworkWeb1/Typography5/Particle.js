@@ -1,4 +1,4 @@
-const TOTAL = 15;
+const TOTAL = 8;
 
 export class Particle {
     constructor(pos, color, ctx) {
