@@ -11,7 +11,7 @@ export class Visual {
     }
 
     animate(ctx) {
-        for(let i=0; i<TOTAL; i++) {
+        for(let i = 0; i < TOTAL; i++) {
             const myPos = this.pos[Math.round(Math.random() * (this.pos.length - 1))];
             new Particle(myPos, this.getColor(), ctx);
         }

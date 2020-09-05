@@ -2,15 +2,6 @@ import {Visual} from './Visual.js';
 import {Text} from './Text.js';
 import {setColor} from './Color.js';
 
-let inputString = prompt('알파벳 하나를 입력하세요.');
-const eng = /^[a-zA-Z]*$/;
-if(!eng.test(inputString) || inputString === '' || inputString === null) {
-    location.reload();
-/}
-if(inputString.length > 1) {
-    location.reload();
-}
-
 class App {
     constructor() {
         this.canvas = document.createElement('canvas');
@@ -29,7 +20,7 @@ class App {
             fontactive: () => {
                 const ul = document.getElementsByTagName('ul')[0];
                 const lis = ul.getElementsByTagName('li');
-                for(let i=0; i<lis.length; i++) {
+                for(let i = 0; i < lis.length; i++) {
                     const item = lis[i];
                     const img = item.getElementsByTagName('img')[0];
                     item.addEventListener('click', e => {
@@ -53,7 +44,7 @@ class App {
     }
 
     async show(index) {
-        for(let i=0; i<this.thumbs.length; i++) {
+        for(let i = 0; i < this.thumbs.length; i++) {
             const item = this.thumbs[i].item;
             if(i == index) {
                 item.classList.add('selected');
@@ -77,10 +68,10 @@ class App {
         this.canvas.height = this.stageHeight * this.pixelRatio;
         this.ctx.scale(this.pixelRatio, this.pixelRatio);
 
-        this.pos = this.text.setText(inputString, 6, this.stageWidth, this.stageHeight);
+        this.pos = this.text.setText('GOGH', 6, this.stageWidth, this.stageHeight);
     }
 
-    animate() {
+    animate(t) {
         requestAnimationFrame(this.animate.bind(this));
 
         if(this.visual) {
