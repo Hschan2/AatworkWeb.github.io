@@ -1,6 +1,6 @@
 import {Particle} from './Particle.js';
 
-const TOTAL = 6;
+const TOTAL = 3;
 
 export class Visual {
     constructor(pos, colorCtx, width, height) {
