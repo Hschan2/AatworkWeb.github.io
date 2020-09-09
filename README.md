@@ -46,4 +46,6 @@
 ### ArtworkWeb1/Typography5
 - Image를 이용하고 Canvas로 그리는 Typography Effect Version 5
 
+### ArtworkWeb1/Typography6
+- PIXI를 이용한 3D Typography Effect Version 6
 
