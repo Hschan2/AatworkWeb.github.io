@@ -1,14 +1,14 @@
 import {Text} from './Text.js';
 import {BounceString} from './bounceStrings.js';
 
-// let inputString = prompt('알파벳 하나를 입력하세요.');
-// const eng = /^[a-zA-Z]*$/;
-// if(!eng.test(inputString) || inputString === '' || inputString === null) {
-//     location.reload();
-// }
-// if(inputString.length > 1) {
-//     location.reload();
-// }
+let inputString = prompt('알파벳 하나를 입력하세요.');
+const eng = /^[a-zA-Z]*$/;
+if(!eng.test(inputString) || inputString === '' || inputString === null) {
+    location.reload();
+}
+if(inputString.length > 1) {
+    location.reload();
+}
 
 export class Visual {
     constructor() {
@@ -26,7 +26,7 @@ export class Visual {
     }
 
     show(stageWidth, stageHeight) {
-        this.pos = this.text.setText('H', 5, stageWidth, stageHeight);
+        this.pos = this.text.setText(inputString, 5, stageWidth, stageHeight);
 
         this.strings = [];
         for(let i = 0; i < this.pos.outline.length; i++) {
