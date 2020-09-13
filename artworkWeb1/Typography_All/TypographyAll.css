@@ -7,6 +7,10 @@ body {
     background-color: #201335;
 }
 
+.white-mode {
+    background-color: #f3f1f7;
+}
+
 .main {
     width: 100vw;
     height: 100vh;
