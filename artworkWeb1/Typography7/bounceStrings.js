@@ -36,8 +36,8 @@ export class BounceString {
 
         this.detect = 10;
 
-        this.saveRgb = 0x000000;
-        this.rgb = 0x000000;
+        this.saveRgb = 0xFF7F00;
+        this.rgb = 0xFF7F00;
     }
 
     animate(ctx, moveX, moveY) {
