@@ -1,19 +1,15 @@
-const black  = '#201335';
-const white = '#f3f1f7';
-
-const element = document.body;
+let element = document.body;
 let back = element.style.backgroundColor;
-back = black
+back = '#201335';
 
 element.addEventListener('click', () => {
-    if(back == black) {
-        element.style.backgroundColor = white;
+    if(back == '#201335') {
+        element.style.backgroundColor = '#f3f1f7';
         element.style.transition = '0.3s';
-        back = white;
+        back = '#f3f1f7';
     } else {
-        element.style.backgroundColor = black;
+        element.style.backgroundColor = '#201335';
         element.style.transition = '0.3s';
-        back = black;
+        back = '#201335';
     }
 });
-
