@@ -1,15 +1,14 @@
-let element = document.body;
-let back = element.style.backgroundColor;
-back = '#201335';
+let back = document.querySelector('.back');
+let WIC = true;
 
-element.addEventListener('click', () => {
-    if(back == '#201335') {
-        element.style.backgroundColor = '#f3f1f7';
-        element.style.transition = '0.3s';
-        back = '#f3f1f7';
+back.addEventListener('click', () => {
+    if(WIC == true) {
+        back.style.backgroundColor = '#e7e2ee';
+        back.style.transition = '0.3s';
+        WIC = false;
     } else {
-        element.style.backgroundColor = '#201335';
-        element.style.transition = '0.3s';
-        back = '#201335';
+        back.style.backgroundColor = '#201335';
+        back.style.transition = '0.3s';
+        WIC = true;
     }
 });
