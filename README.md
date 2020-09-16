@@ -49,3 +49,6 @@
 ### ArtworkWeb1/Typography6
 - PIXI를 이용한 3D Typography Effect Version 6
 
+### ArtworkWeb1/Typography7
+- Canvas로 그리는 Strings Typography Effect Version 7
+
