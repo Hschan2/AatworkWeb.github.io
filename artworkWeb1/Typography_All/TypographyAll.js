@@ -1,4 +1,5 @@
 let back = document.querySelector('.back');
+let button = document.querySelectorAll('.aTag');
 let WIC = true;
 
 back.addEventListener('click', () => {
@@ -11,4 +12,9 @@ back.addEventListener('click', () => {
         back.style.transition = '0.3s';
         WIC = true;
     }
+});
+
+button.addEventListener('click', () => {
+    if(WIC == true) back.style.backgroundColor = '#201335';
+    else back.style.backgroundColor = '#e7e2ee';
 });
