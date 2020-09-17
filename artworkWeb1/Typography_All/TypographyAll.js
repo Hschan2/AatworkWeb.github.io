@@ -4,7 +4,7 @@ let WIC = true;
 
 back.addEventListener('click', () => {
     if(WIC == true) {
-        back.style.backgroundColor = '#e7e2ee';
+        back.style.backgroundColor = '#fbfbff';
         back.style.transition = '0.3s';
         WIC = false;
     } else {
@@ -16,5 +16,5 @@ back.addEventListener('click', () => {
 
 button.addEventListener('click', () => {
     if(WIC == true) back.style.backgroundColor = '#201335';
-    else back.style.backgroundColor = '#e7e2ee';
+    else back.style.backgroundColor = '#fbfbff';
 });
