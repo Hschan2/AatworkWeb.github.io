@@ -59,7 +59,3 @@
 ### 일곱 번째 타이포그라피
 - Canvas로 그리기
 [Typography7](https://hschan2.github.io/AatworkWeb.github.io/artworkWeb1/Typography7/Typography.html)
-
-### ArtworkWeb1/Iphone
-- HTML/CSS로 그리는 IPHONE Packaging Animation
-
