@@ -1,5 +1,5 @@
 let back = document.querySelector('.back');
-let button = document.querySelectorAll('.aTag');
+let button = document.querySelectorAll('.Card');
 let WIC = true;
 
 back.addEventListener('click', () => {
@@ -15,6 +15,9 @@ back.addEventListener('click', () => {
 });
 
 button.addEventListener('click', () => {
-    if(WIC == true) back.style.backgroundColor = '#201335';
-    else back.style.backgroundColor = '#fbfbff';
+    if(WIC == true) {
+        back.style.backgroundColor = '#201335';
+    } else {
+        back.style.backgroundColor = '#fbfbff';
+    }
 });
